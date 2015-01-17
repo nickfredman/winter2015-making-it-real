@@ -8,7 +8,6 @@ body {
 
 .container {
   width: 500px;
-  height: 1000px;
   background: #ECF0F1;
   margin: auto;
   position: relative;
@@ -72,22 +71,112 @@ nav {
   margin: 5px 5px;
 }
 
-.article-title {
-  font-size: 1.2rem;
+article {
   margin: 30px 20px;
 }
 
-.main-content {
+.article-title {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
+/*.main-content {
+  padding: 0 40px 30px 40px;
+}*/
+
+section {
+  padding: 15px 0;
 }
 
 section p {
-  font-size: .8rem;
-  margin-left: 40px;
+  font-size: .75rem;
   line-height: 1.2rem;
+  padding: 0 20px 15px 20px;
+  margin: 0;
 }
 
 .inline-link {
   color: #D35400;
   text-decoration: none;
+}
+.section-title {
+  font-size: 1rem;
+  border-bottom: 1px solid #7F8C8D;
+  padding: 5px;
+  margin: 0;
+}
+
+table {
+  margin-bottom: 20px;
+}
+
+.languages {
+  border: 1px solid #7F8C8D;
+}
+
+.languages td {
+  font-size: .75rem;
+  border: 1px solid #7F8C8D;
+  padding: 7px;
+}
+
+.table-header td {
+  background: #BDC3C7;
+  font-weight: bold;
+  padding: 7px;
+}
+
+.table-button {
+  text-decoration: none;
+  background: #3498DB;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 1px;
+  margin: auto;
+}
+
+.code-box {
+  background: #BDC3C7;
+  margin-bottom: 15px;
+}
+
+.code-box p {
+  font: .75rem "courier new";
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.ordered-list {
+  font-size: .8rem;
+  line-height: 1.2rem;
+}
+
+.ordered-list li {
+  margin-bottom: 10px;
+}
+
+.gray-text {
+  color: #969696;
+  font-size: .75rem;
+  margin: 0;
+}
+
+.comments {
+  margin-top: 40px;
+}
+
+.comment-info {
+  border: none;
+  border-top: 1px solid #c0c0c0;
+}
+
+.comment-info legend {
+  padding: 15px 8px;
+  font-size: .75rem;
+  color: #969696;
+}
+
+.comment-info p {
+  font-size: .75rem;
 }
